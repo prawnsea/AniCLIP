@@ -1,0 +1,15 @@
+
+--text: #ebeeef;
+--background: #101314;
+--primary: #59676e;
+--secondary: #121517;
+--accent: #c0c9cc;
+
+
+//tailwind
+
+'text': '#ebeeef',
+'background': '#101314',
+'primary': '#59676e',
+'secondary': '#121517',
+'accent': '#c0c9cc',

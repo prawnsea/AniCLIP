@@ -1,2 +1,2 @@
-# AniCLIP
-A streaming website that provides popular anime clips.
+# AniClips
+A streaming website that provides popular anime clips
