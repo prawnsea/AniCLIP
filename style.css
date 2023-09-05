@@ -13,7 +13,7 @@
 }
 body{
   background-image: url(/Images/bg.png);
-  height: 200vh;
+  height: 100vh;
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -65,4 +65,30 @@ border: none;
   color: var(--text);
   opacity: 75% !important;
 
+}
+/* #logIn{
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: var(--accent);
+  border-radius: 10px;
+
+} */
+
+p{
+  color: black;
+text-align: center;
+font-family: 'Press Start 2P', cursive;
+font-size: 1rem;
+font-style: normal;
+line-height: normal;
+}
+#About{
+  color: black;
+  font-family: 'RocknRoll One', sans-serif;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
