@@ -1,9 +1,9 @@
 :root{
-  --text: #ebeeef;
---background: #101314;
---primary: #59676e;
---secondary: #121517;
---accent: #c0c9cc;
+  --text: #0b0407;
+--background: #f4e1ea;
+--primary: #8fd6b5;
+--secondary: #cadbec;
+--accent: #153c2a;
 }
 
 *{
@@ -12,14 +12,10 @@
   
 }
 body{
-  background-image: url(/Images/bg.png);
-  height: 100vh;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-color: var(--background);
 }
+
+
 @media screen and (max-width: 768px) {
   body {
     background-size: contain;
@@ -91,4 +87,21 @@ font-size: 1.25rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.clip-container{
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+}
+
+
+#idText{
+  text-decoration: none !important;
+  color: var(--text);
+}
+.card-text{
+  background-color: var(--primary);
+  border-radius: 5px;
+  font-family:'Poppins', sans-serif;
+
 }
